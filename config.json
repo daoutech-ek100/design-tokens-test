@@ -1,0 +1,21 @@
+{
+  "source": ["my-app/src/theme/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "my-app/src/scss/",
+      "files": [{
+        "destination": "_variables.scss",
+        "format": "scss/variables"
+      }]
+    },
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "my-app/src/css/",
+      "files": [{
+        "destination": "variables.css",
+        "format": "css/variables"
+      }]
+    },
+  }
+}
